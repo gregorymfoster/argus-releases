@@ -17,6 +17,10 @@
   <a href="https://github.com/gregorymfoster/argus-app#set-up-the-ai">Set up the AI</a>
 </p>
 
+<p align="center">
+  <img src="screenshots/grid.jpg" alt="Argus showing a shoot of 34 photos, each rated with stars by the AI cull" width="900">
+</p>
+
 ## Install
 
 Paste this into Terminal on a Mac with Apple Silicon:
@@ -34,6 +38,25 @@ You can also download the `.dmg` from the [latest release](https://github.com/gr
 Import a card and Argus looks at the whole shoot at once. It rates every photo, groups bursts into Stacks and flags frames that are plainly broken, so your own cull goes quickly. Then it offers two or three finished edits per photo that you can accept, dial down or ignore. You can also just ask it things, like "fix the lighting on this one", and undo anything it did in one step. Your original files are never changed.
 
 Argus needs macOS 13 or later on Apple Silicon. The default model runs best with 32 GB of memory; with less, pick a smaller model or use your Claude plan.
+
+## A closer look
+
+<p align="center">
+  <img src="screenshots/stacks.jpg" alt="The Stacks view comparing three frames of a burst, with the sharpest one marked Best" width="900">
+  <br><sub>Bursts become Stacks. Look at the frames side by side and press Enter to keep the best.</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/edit.jpg" alt="Edit view with three suggested edits, Natural, Punchy and Moody, under a portrait" width="900">
+  <br><sub>Each photo gets a few finished edits to choose from. Nothing changes until you accept one.</sub>
+</p>
+
+<p align="center">
+  <img src="screenshots/agent.jpg" alt="The Agent brightening a dark candlelit room and explaining the changes it made" width="900">
+  <br><sub>Ask for what you want in plain words. The Agent edits the photo, says what it changed, and Undo puts it back.</sub>
+</p>
+
+<sub>Sample photos are public domain or CC0 from Wikimedia Commons (<a href="screenshots/CREDITS.md">credits</a>).</sub>
 
 ## Why this repo exists
 
